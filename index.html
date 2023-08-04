@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="heading">Pixel Pad</h1>
+      <div class="menu">
+        <button onclick="changeColor('black')">color</button>
+        <button onclick="changeColor('random')">random</button>
+        <button onclick="changeColor('white')">erase</button>
+        <button onclick="resetCanvas()">reset</button>
+        <button onclick="changeSize()">Size</button>
+      </div>
+      <div class="canvas"></div>
+    </div>
+  </body>
+</html>
